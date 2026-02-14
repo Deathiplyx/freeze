@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wishlist Coming Soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .box {
+            max-width: 500px;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 28px;
+            background: #1b9cff;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 6px;
+        }
+
+        .small {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Steam Page Coming Soon</h1>
+        <p>
+            The Steam store page is currently awaiting approval.<br>
+            Please check back soon to wishlist the game.
+        </p>
+
+        <!-- Replace this link later with your Steam page -->
+        <a class="button" href="#" onclick="return false;">
+            Wishlist on Steam (Coming Soon)
+        </a>
+
+        <div class="small">
+            Thanks for your interest and support.
+        </div>
+    </div>
+</body>
+</html>
